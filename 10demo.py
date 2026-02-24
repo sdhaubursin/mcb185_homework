@@ -1,5 +1,6 @@
-print("hello world")
-
-print(1.5e-2)
-
-print(abs(1))
+import math
+def pythagoras(a, b):
+	return math.sqrt(a**2 + b**2)
+	return c
+	
+print(pythagoras(3, 4))
