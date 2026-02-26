@@ -43,3 +43,33 @@ print(farenheit_to_celsius(68))
 def mph_to_kph(m): return m * 1.60934
 print(mph_to_kph(10))
 
+s = 'hello world'
+print(s, type(s))
+
+a = 2
+b = 3 
+if a != b:
+	print('a not equal to b')
+print(a , b)
+
+def is_even(x):
+	if x % 2 == 0: return True
+	return False 
+print(is_even(2))
+print(is_even(3))
+
+c = a == b
+print(c)
+print(type(c))
+
+if   a < b: print('a < b')
+elif a > b: print('a > b')
+
+if a < b or a > b: print('all things being equal, a and b are not')
+if a < b and a > b print('you are living in a strange world')
+if not False: print(True)
+
+print(abs(a - b))
+if abs(a - b) < 1e-9: print('close enough')
+
+if math.isclose(a, b): print('close enough')
